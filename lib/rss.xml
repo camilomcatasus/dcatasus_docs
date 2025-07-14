@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[D'Catasus Documentation]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>D'Catasus Documentation</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 13 Jul 2025 19:35:01 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 13 Jul 2025 19:34:59 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[index]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[D'Catasus Documentation]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>D'Catasus Documentation</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 14 Jul 2025 16:50:51 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 14 Jul 2025 16:50:45 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[index]]></title><description><![CDATA[ 
  <br><br>]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Mon, 07 Jul 2025 19:28:58 GMT</pubDate></item><item><title><![CDATA[Admin]]></title><description><![CDATA[ 
  <br><br><br><br>Users are added by navigating to the user tab and clicking on new user, either in the list view displayed on the right, or in the toolbar displayed at the top. <br>User information can be added in the Add user pop-up, this information varies from personal identifying information, to information like the pin which is used to open gates. <br>FOR KEYPAD ACCESS a pin MUST be assigned to the user. When a user opens the gate using their pin, it will log that access in the system. <br><img alt="add_user.gif" src="gifs\add_user.gif"><br><br>To delete a user, select the user as if you were going to edit them, then click the Void user button at the bottom of the application. Voiding the user means to bar them from all doors, giving them the no access <a data-href="#Access Level Permissions" href="about:blank#Access_Level_Permissions" class="internal-link" target="_self" rel="noopener nofollow">Access Level Permissions</a>. Once a user has been voided, they can then be deleted by pressing the Delete record button.<br>
 <img alt="delete_user.gif" src="gifs\delete_user.gif"><br><br>A user can be edited by double clicking on that user in either the list view on the left, or the list view on the right once the Users tab has been clicked. You can change personal identifying now, AND assign Access level permissions. <a data-href="#Access level permissions" href="about:blank#Access_level_permissions" class="internal-link" target="_self" rel="noopener nofollow">Access level permissions</a> dictate what doors the user can open at what time.<br>
@@ -27,7 +27,11 @@
 They complete the interaction by clicking on the Finish button at the bottom right
 <br><img alt="open_doors_client.gif" src="gifs\open_doors_client.gif"><br><br>Even an <a data-tooltip-position="top" aria-label="Operators (Application Permissions)" data-href="#Operators (Application Permissions)" href="about:blank#Operators_(Application_Permissions)" class="internal-link" target="_self" rel="noopener nofollow">operator</a> with the most basic of permissions has the ability to open the door through the web application. Once logged in to the application, the user clicks on Open Door, then selects the specific <a data-tooltip-position="top" aria-label="Doors" data-href="#Doors" href="about:blank#Doors" class="internal-link" target="_self" rel="noopener nofollow">door</a> they want to by clicking on the Open Door next to that door's name. <br><img alt="open_doors_web.gif" src="gifs\open_doors_web.gif">]]></description><link>paxton-net2-user-guide.html</link><guid isPermaLink="false">Paxton Net2 User Guide.md</guid><pubDate>Tue, 08 Jul 2025 02:42:25 GMT</pubDate><enclosure url="gifs\add_user.gif" length="0" type="image/gif"/><content:encoded>&lt;figure&gt;&lt;img src="gifs\add_user.gif"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Installing Application]]></title><description><![CDATA[ 
  <br><br><br><a rel="noopener nofollow" class="external-link" href="https://reolink.com/us/software-and-manual/" target="_blank">https://reolink.com/us/software-and-manual/</a><br><br><a data-tooltip-position="top" aria-label="https://play.google.com/store/apps/details?id=com.mcu.reolink&amp;pcampaignid=web_share" rel="noopener nofollow" class="external-link" href="https://play.google.com/store/apps/details?id=com.mcu.reolink&amp;pcampaignid=web_share" target="_blank">Android</a><br>
-<a data-tooltip-position="top" aria-label="https://apps.apple.com/us/app/reolink/id995927563" rel="noopener nofollow" class="external-link" href="https://apps.apple.com/us/app/reolink/id995927563" target="_blank">Apple</a><br><br><br>To navigate to the User Management section:*<br>
+<a data-tooltip-position="top" aria-label="https://apps.apple.com/us/app/reolink/id995927563" rel="noopener nofollow" class="external-link" href="https://apps.apple.com/us/app/reolink/id995927563" target="_blank">Apple</a><br><br>There are two ways to navigate to the settings menu:<br>
+<br>From the homepage, click on the gear icon for the desired Camera
+<br>Navigate to the Camera's page by clicking on the video, then click on the gear icon<br>
+<img alt="Phone Settings Instructional Gif" src="https://i.imgur.com/ZSTxz2i.gif" referrerpolicy="no-referrer">
+<br><br><br>To navigate to the User Management section:*<br>
 <br>Click on the settings button shaped like a gear
 <br>Navigate to the System section on the left hand side and click it to expand the list. 
 <br>Click on User Management and a view will appear of all existing users. 
@@ -36,22 +40,49 @@ They complete the interaction by clicking on the Finish button at the bottom rig
 <br>To delete a user, click on the trash icon to the right of the user. Then confirm the deletion
 <br>To edit a user, click on the edit button next to the trash icon of the specific user you want to edit.<br>
 <img alt="user_management_final.gif" src="gifs\reolink\user_management_final.gif">
-<br><br><br>To navigate to the section of the application where you can edit the push notification schedule:<br>
+<br><br>To navigate to the User Management section and add users:<br>
+<br>Scroll down in the settings until you see the Advanced option
+<br>Click on User Management
+<br>Click on either 
+
+<br>Add User to add a user that can't change device settings
+<br>Add Admin to add a user that can change device settings
+
+
+<br>Enter user details
+<br>Click Save<br>
+<img alt="Phone User Management Instructional GIF" src="https://i.imgur.com/y6zZFzp.gif" referrerpolicy="no-referrer">
+<br><br>The gray sections of the schedule mean that the application will not send notification during that time, the blue squares indicate that the application will send notifications. <br><br>To navigate to the section of the application where you can edit the push notification schedule:<br>
 <br>Click on the settings button shaped like a gear.
 <br>Navigate to the Surveillance section on the left hand side and click it to expand the list if it has not been expanded. 
 <br>Click on Push and a view of the push notification section will appear.
 <br>Click on Schedule and the push notification schedule will appear. 
-<br>All the gray square of the schedule mean that the application will not send notification during that time, the blue squares indicate that the application will send notifications. <br>To edit specific times of the schedule:<br>
+<br>To edit specific times of the schedule:<br>
 <br>Choose whether or not you want to enable or disable a specific time by clicking on the corresponding button. Either Enable or Disable
 <br>Click on the specific timeslot you want to edit.
 <br>Click on Save to ensure changes are saved. 
-<br><img alt="push_notifications_final.gif" src="gifs\reolink\push_notifications_final.gif"><br><br>To navigate to Non-Detection Zone editing section:<br>
+<br><img alt="push_notifications_final.gif" src="gifs\reolink\push_notifications_final.gif"><br><br>Click on push notifications in the settings menu to navigate to the push notifications section of the app.<br>To change the schedule that dictates when the user will receive push notifications:<br>
+<br>Click on Schedule
+<br>Click on the specific day you want to edit
+<br>Click on the specific timeslot you want to change
+<br>Set that timeslot to enabled or disabled
+<br>Click Save
+<br>To change the interval (the time between push notifications if the camera keeps detecting something) at which push notifications will be sent if a car has been detected:<br>
+<br>Click on interval
+<br>Change interval to one of the selected options<br>
+<img alt="Push Notifications Instructional GIF" src="https://i.imgur.com/KAYsBbK.gif" referrerpolicy="no-referrer">
+<br><br>The Non-Detection Zone is the gray area shown overlayed on top of the camera feed. Anything in the Non-Detection Zone will not trigger camera alarms, this is useful to prevent false alarms where someone might just be moving a car or walking in a section that isn't important. <br><br>To navigate to Non-Detection Zone editing section:<br>
 <br>Click on the settings button shaped like a gear.
 <br>Navigate to the Device section on the left hand side and click it to expand the list if it has not been expanded. 
 <br>Click on Motion Detection and a view of the Motion Detection section will appear.
 <br>Click on Non-Detection Zone and the Non-Detection Zone editing section will appear.
-<br>The Non-Detection Zone is the gray area shown overlayed on top of the camera feed. Anything in the Non-Detection Zone will not trigger camera alarms, this is useful to prevent false alarms where someone might just be moving a car or walking in a section that isn't important. <br>To edit a section of the Non-Detection Zone<br>
+<br>To edit a section of the Non-Detection Zone<br>
 <br>Click on either the Paintbrush icon to be able to fill in more of the Non-Detection Zone or the Eraser icon to remove some of the Non-Detection Zone
 <br>Click on the overlay to make changes, like using MS paint.
 <br>Click Save to keep any changes made
-<br><img alt="edit_non_detection_zone_final.gif" src="gifs\reolink\edit_non_detection_zone_final.gif">]]></description><link>reolink-user-guide.html</link><guid isPermaLink="false">Reolink User Guide.md</guid><pubDate>Sun, 13 Jul 2025 19:24:34 GMT</pubDate><enclosure url="gifs\reolink\user_management_final.gif" length="0" type="image/gif"/><content:encoded>&lt;figure&gt;&lt;img src="gifs\reolink\user_management_final.gif"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+<br><img alt="edit_non_detection_zone_final.gif" src="gifs\reolink\edit_non_detection_zone_final.gif"><br><br>To navigate to the Non-Detection Zone menu:<br>
+<br>Click on Detection Alarm
+<br>Click on Non-Detection Zone
+<br>Edit the not-detection zone <a data-tooltip-position="top" aria-label="Editing the Non - Detection Zone > Desktop" data-href="#Editing the Non - Detection Zone#Desktop" href="about:blank#Editing_the_Non_-_Detection_Zone#Desktop" class="internal-link" target="_self" rel="noopener nofollow">like you would in the desktop app</a><br>
+<img alt="Edit Non-Detection Zone Instructional GIF" src="https://i.imgur.com/GkX1qqe.gif" referrerpolicy="no-referrer">
+]]></description><link>reolink-user-guide.html</link><guid isPermaLink="false">Reolink User Guide.md</guid><pubDate>Mon, 14 Jul 2025 16:49:29 GMT</pubDate><enclosure url="https://i.imgur.com/ZSTxz2i.gif" length="0" type="image/gif"/><content:encoded>&lt;figure&gt;&lt;img src="https://i.imgur.com/ZSTxz2i.gif"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
